@@ -1,4 +1,4 @@
-/记录学习使用窗口管理器dwm的过程/
+/记录archlinux下窗口管理器dwm的安装与使用/
 
 * 窗口管理器
 
@@ -19,6 +19,7 @@
 
 大部分 *显示管理器* 从 ~/usr/share/xsessions/~ 目录下，读取可用的 *会话* 。这些 *会话* ~*.desk~ 文件，包含了 *窗口管理器* 所需的标准桌面输入文件。
 登陆dwm一个例子：
+#+BEGIN_SRC 
 [Desktop Entry]
 Name=dwm
 Comment=Log in using the dwm window manager (without a session manager) 
@@ -26,6 +27,7 @@ Exec=dwm
 TryExec=/usr/bin/dwm 
 Icon= 
 Type=Application
+#+END_SRC
 
 * 安装dwm
 
